@@ -16,6 +16,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="\" />
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Remove="NistP256Net.Tests\**" />
 	  <EmbeddedResource Remove="NistP256Net.Tests\**" />
 	  <None Remove="NistP256Net.Tests\**" />
