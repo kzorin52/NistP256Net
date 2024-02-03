@@ -11,6 +11,8 @@
 		<Authors>Temnij</Authors>
 		<Description>NistP256 native wrapper (only compressed public key)</Description>
 		<PackageTags>nistp256, secp256r1, crypto, keypair, ec, p256</PackageTags>
+		<PackageProjectUrl>https://github.com/kzorin52/NistP256Net</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/kzorin52/NistP256Net</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
