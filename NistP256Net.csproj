@@ -20,14 +20,20 @@
 		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
+	<PropertyGroup>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
 	<ItemGroup>
-	  <Compile Remove="NistP256Net.Tests\**" />
-	  <EmbeddedResource Remove="NistP256Net.Tests\**" />
-	  <None Remove="NistP256Net.Tests\**" />
+		<Compile Remove="NistP256Net.Tests\**" />
+		<EmbeddedResource Remove="NistP256Net.Tests\**" />
+		<None Remove="NistP256Net.Tests\**" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="NistP256" Version="0.1.0" />
+		<PackageReference Include="NistP256" Version="0.1.0" />
 	</ItemGroup>
 
 </Project>
