@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>preview</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Title>NistP256Net</Title>
+		<Authors>Temnij</Authors>
+		<Description>NistP256 native wrapper (only compressed public key)</Description>
+		<PackageTags>nistp256, secp256r1, crypto, keypair, ec, p256</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="NistP256Net.Tests\**" />
+	  <EmbeddedResource Remove="NistP256Net.Tests\**" />
+	  <None Remove="NistP256Net.Tests\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="NistP256" Version="0.1.0" />
+	</ItemGroup>
+
+</Project>
